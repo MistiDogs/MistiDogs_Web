@@ -1,0 +1,175 @@
+/*----- Styles Généraux -----*/
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+
+/*----- Section Hero -----*/
+
+.application {
+    aspect-ratio: 5/9;
+    border: 5px;
+}
+
+
+/*----- Section view more-----*/
+
+#section-view-more {
+    padding: 40px;
+}
+
+.voirplus {
+    color: white;
+}
+
+.swiper-screenshots {
+    position: relative;
+    width: 30vw;
+    height: 110vh;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: var(--bs-info);
+}
+
+.swiper-slide {
+    width: calc(33.33% - 20px);
+    margin: 0 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide:first-child,
+.swiper-slide:last-child {
+    box-shadow: none;
+}
+
+.iphone {
+    position: relative;
+    width: 25vw;
+    height: 80vh;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.swiper {
+    width: 100%;
+    height: 700px;
+}
+
+.swiper-slide-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    height: 80%;
+    border-radius: 50px;
+    transition: transform 0.5s;
+    transform: scale(0.8);
+}
+
+
+/*----- Section témoignagnes -----*/
+
+.section-testimonials {
+    padding: 30px;
+    background-color: var(--bs-dark);
+}
+
+.Témoignages {
+    color: white;
+}
+
+
+/*----- Section infolettre -----*/
+
+.container-infolettre {
+    background-color: white;
+    opacity: 0.5;
+}
+
+.faq {
+    background-color: var(--bs-info);
+    padding: 30px;
+}
+
+a.text-white {
+    text-decoration: none;
+}
+
+.infolettre {
+    background-image: url(../assets/infolettre.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    width: 100vw;
+    padding: 30px;
+}
+
+.section-features {
+    background-color: white;
+    padding: 50px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+}
+
+
+/*----- Section footer -----*/
+
+section.footer {
+    height: 20%;
+    background-color: var(--bs-light);
+}
+
+section.footer {
+    background-color: var(--bs-primary);
+}
+
+.footer-text {
+    color: var(--bs-white);
+    font-size: 20px;
+}
+
+nav {
+    background-color: var(--bs-primary);
+    height: 15%;
+    box-shadow: 0px 4px 62px 1px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+    font-size: 24px;
+    margin: 0 30px 0 30px;
+    font-family: 'Amaranth', sans-serif;
+}
+
+@media all and (min-width:1200px) {
+    .swiper-slide {
+        opacity: 0.4;
+    }
+}
+
+a:last-child {
+    text-decoration: none;
+}
+
+a:last-child:hover {
+    color: var(--bs-info)
+}

@@ -1,0 +1,25 @@
+:root {
+    --bs-light: #2b59c3;
+    --bs-dark: #211e1e;
+    --bs-primary: #000000;
+    --bs-secondary: #11266f;
+    --bs-info: #cacdd2;
+} 
+/* Changer les couleurs pour ceux de bootstrap*/
+
+@font-face {
+    src: url("/fontes/Plain-Medium.otf") format("opentype");
+    font-family: "PlainMedium";
+}
+
+@font-face {
+    src: url("/fontes/Plain-Extrabold.otf") format("opentype");
+    font-family: "PlainBold";
+}
+
+h1, .h1 { font-size: 40px; font-weight: 900; color: var(--noirfonce);}
+h2, .h2 { font-size: 40px; font-weight: 900; color: var(--noirfonce);}
+h3, .h3 { font-size: 40px; font-weight: 900; color: var(--noirfonce);}
+h4, .h4 { font-size: 40px; font-weight: 900; color: var(--noirfonce);}
+h5, .h5 { font-size: 40px; font-weight: 900; color: var(--noirfonce);}
+h6, .h6 { font-size: 40px; font-weight: 900; color: var(--noirfonce);}

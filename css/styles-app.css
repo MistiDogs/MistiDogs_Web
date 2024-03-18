@@ -1,0 +1,113 @@
+/*----- Styles Généraux -----*/
+.navbar-custom {
+    background-color: #000000;
+}
+
+body {
+    padding-bottom: 100px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 20px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*----- Section Hero -----*/
+
+.main-container {
+    max-width: 1200px;
+    margin: 100px auto 0;
+}
+
+.main {
+    margin-top: 0;
+}
+
+/* cartes.... */
+
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 220px;
+
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-title,
+.card-text,
+.card-link,
+.bi-calendar,
+.bi-clock,
+.info {
+    color: #fff;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.plusieurscartes {
+    width: 140%;
+}
+
+.card {
+    object-fit: cover;
+    object-position: center;
+}
+
+.card2 {
+    height: 20vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*bouton de recherche */
+
+.search-bar {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.search-bar+.btn {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+/* fin boutton de recherche */
+
+.navbarartwork {
+    background-color: transparent;
+}
+
+.bi-arrow-90deg-left {
+    background-color: white;
+}
+
+
+.oeuvre-container {
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oeuvre-container img {
+    max-height: 100%;
+    max-width: 100%;
+}
